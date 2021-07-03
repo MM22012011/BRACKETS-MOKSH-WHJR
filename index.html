@@ -1,72 +1,58 @@
-<html>
+<!DOCTYPE html>
+<html lang="en">
 
 <head>
-    <link rel="stylesheet" href="style.css">
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Odibee+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <title>My Favourite</title>
+    <title>Bootstrap Example</title>
+    <meta charset="utf-8">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-    <ul class="menu">
-        <li class="links"><a href="#ABOUT">ABOUT</a>
-        </li>
-        <li class="links"><a href="#MY HOBBY">MY HOBBY</a>
-        </li>
-        <li class="links"><a href="#INSPIRATION">INSPIRATION</a>
-        </li>
-        <li class="links"><a href="#MY FAVOURITE">MY FAVOURITE</a>
-        </li>
-        <li class="links"><a href="#CONTACT">CONTACT</a>
-        </li>
-    </ul>
-    <section id="welcome" class="about">
-        <div class="line">
-            <img src="IMG_1746.jpg" class="profile">
-            <h1> I am
-                <br>
-                <span id="name">
-                    Moksh Meena
-                </span>
-            </h1>
-            <p>I am a sportsman and a coder.
-            </p>
+
+    <div class="container">
+
+        <section id="app">
+            <h1>Apps</h1>
+            <div class="line"></div>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/AmAIOlod-80aGvVFcBdbfjebPGUlVaYjI8ECZcJtZks/embed"></iframe>
+            <iframe width="400" height="620" style="border: 0px;" src="https://studio.code.org/projects/applab/U9AQsuLnTixFr5caYUBM9qmkuaPCvmuWblFMcUPrC14/embed"></iframe>
+        </section>
+
+        <h2>Click on the game to play.</h2>
+        <h5>These games are build in game lab.</h5>
+        <div id="myCarousel" class="carousel slide">
+            <div class="carousel-inner">
+                <div class="item active">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/YjMD-njXn3C7EcfvbGMLArEZfdNjSrxKzKytoq7xK70" target="_blank">
+                            <img src="FIGHT%20AGAINST%20COVID.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Fight Against Corona Game</p>
+                        </div>
+                    </center>
+                </div>
+                <div class="item">
+                    <center>
+                        <a href="https://studio.code.org/projects/playlab/sQ1aEJse18o-SlJieXCGvLlU0M-3BYZe54KtfhL-L0Q" target="_blank">
+                            <img src="BIRD%20AND%20WIZARD.png" class="img-responsive">
+                        </a>
+                        <div class="carousel-content">
+                            <p>Bird And Wizard Game</p>
+                        </div>
+                    </center>
+                </div>
+            </div>
+            <a class="left carousel-control" href="#myCarousel" data-slide="prev"> <span class="glyphicon glyphicon-chevron-left"></span> </a> 
+            <a class="right carousel-control" href="#myCarousel" data-slide="next"> <span class="glyphicon glyphicon-chevron-right"></span> </a>
         </div>
-    </section>
-    <section class="my hobby">
-        <div class="line">
-            <h1>MY HOBBY</h1>
-            <img class="images" src="gaming.jpg">
-            <br>
-            <br>
-            <img class="images" src="videos.png">
-            <p>My hobby is to do gaming and make videos I am not making videos now but will start making them soon.</p>
-        </div>
-    </section>
-    <section class="INSPIRATION">
-        <span>
-            <img class="images" src="UJJWAL.jpg">
-            <br>
-            <img class="images" src="TECHNO%20LOGO.jpg">
-        </span>
-        <p>My inspiration is TECHNO GAMERZ or you can say UJJWAL CHAURASIA I love his videos the first time I saw his video I was thinking to make a youtube channel he has over 17 million subscribers.
-        </p>
-    </section>
-    <section>
-        <span>
-            <img class="images" src="gta%20v.jpg">
-            <img class="images" src="cyber%20punk.jpg">
-            <img class="images" src="minecraft.jpg">
-            <img class="images" src="phasmo%20phobia.jpg">
-            <img class="images" src="pubg.jpg">
-        </span>
-        <p>I like to play GRAND THEFT AUTO 5, PUBG, MINECRAFT, CYBER PUNK 2077, PHASMOPHOBIA AND OTHER HORROR AND FIGHTING GAME.</p>
-    </section>
-    <section class="CONTACT">
-        <H2>GMAIL-meenamoksh22@gmail.com/mokshmeena165@gmail.com
-        </H2>
-    </section>
+
+    </div>
+
+
 </body>
 
 </html>
